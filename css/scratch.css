@@ -1,0 +1,41 @@
+body {
+    background-color: #e6f2ff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav {
+    text-align: center;
+    margin: 20px;
+}
+
+.content {
+    margin: 30px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #003366;
+}
+
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    color: #003366;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}

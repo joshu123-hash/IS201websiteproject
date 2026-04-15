@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joshua Brewer - Tableau</title>
+
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        .content {
+            margin: 30px;
+        }
+
+        .nav {
+            margin: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Tableau Dashboard</h1>
+        <p>Interactive Data Visualization</p>
+    </div>
+
+    <div class="nav">
+        <a href="index.html">← Back to Home</a>
+    </div>
+
+<div class="content">
+    <h2>A Tableau Project</h2>
+    <p>
+        This interactive dashboard visualizes data I analyzed using Tableau.
+    </p>
+</div>
+
+<div class="content">
+    <!-- TABLEAU EMBED -->
+    <div class='tableauPlaceholder' id='viz1776129386617' style='position: relative'>
+        <noscript>
+            <a href='#'>
+                <img alt='Sheet 1' src='https://public.tableau.com/static/images/Pr/Project-Brewer/Sheet1/1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https://public.tableau.com/' />
+            <param name='embed_code_version' value='3' />
+            <param name='name' value='Project-Brewer/Sheet1' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+        </object>
+    </div>
+</div>
+
+    <script>
+        var divElement = document.getElementById('viz1776129386617');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '100%';
+        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+</body>
+</html>
